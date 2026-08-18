@@ -66,7 +66,7 @@ export default function HomeSelector() {
 
           {/* INDIVIDUAL CARD */}
           <Link
-            to="/individual"
+            to="/onesalecompany"
             className="group relative bg-white rounded-[32px] overflow-hidden border-2 border-slate-100 hover:border-red-600 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
           >
             {/* Top accent */}
@@ -154,7 +154,7 @@ export default function HomeSelector() {
 
           {/* BUSINESS CARD */}
           <Link
-            to="/business"
+            to="/b2b"
             className="group relative bg-white rounded-[32px] overflow-hidden border-2 border-slate-100 hover:border-slate-900 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
           >
             {/* Top accent */}

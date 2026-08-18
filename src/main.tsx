@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')!).render(
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeSelector />} />
-        <Route path="/individual/*" element={<IndividualLanding />} />
-        <Route path="/business/*" element={<BusinessLanding />} />
+        <Route path="/onesalecompany/*" element={<IndividualLanding />} />
+        <Route path="/b2b/*" element={<BusinessLanding />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

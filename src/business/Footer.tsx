@@ -146,7 +146,7 @@ export default function Footer() {
                 <span>Trang chủ</span>
               </Link>
               <Link
-                to="/individual"
+                to="/onesalecompany"
                 className="text-slate-400 hover:text-white transition-colors font-semibold"
               >
                 Đào tạo Cá nhân (One Sale Company)

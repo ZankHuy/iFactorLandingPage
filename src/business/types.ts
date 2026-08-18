@@ -1,8 +1,8 @@
-import testimonialQuanPhoto from "../additinal-asset/Quan.png";
-import testimonialHuyenPhoto from "../additinal-asset/Huyen.png";
-import testimonialDuyPhoto from "../additinal-asset/Duy.png";
-import testimonialHoangPhoto from "../additinal-asset/Hoang.png";
-import testimonialHieuPhoto from "../additinal-asset/Hieu.png";
+import testimonialQuanPhoto from "../additinal-asset/Quan_proxy.png";
+import testimonialHuyenPhoto from "../additinal-asset/Huyen_proxy.png";
+import testimonialDuyPhoto from "../additinal-asset/Duy_proxy.png";
+import testimonialHoangPhoto from "../additinal-asset/Hoang_proxy.png";
+import testimonialHieuPhoto from "../additinal-asset/Hieu_proxy.png";
 import dangVuHiepRealPhoto from "./assets/images/Dang Vu Hiep_proxy.jpg";
 import phamVietAnhPhoto from "./assets/images/Pham Viet Anh_proxy.jpg";
 import tinaDoPhoto from "./assets/images/Tina Do_proxy.jpg";

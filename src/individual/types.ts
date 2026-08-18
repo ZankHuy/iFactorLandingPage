@@ -12,9 +12,9 @@ import trinhVanAnhPhoto from "./assets/images/Trinh Van Anh_proxy.jpg";
 import tranTrongTruongPhoto from "./assets/images/mr Trọng Trưởng_proxy.jpg";
 import ducNguyenPhoto from "./assets/images/mr Đức Nguyễn_proxy.jpg";
 import nguyenDucThangPhoto from "./assets/images/Nguyen Duc Thang_proxy.jpg";
-import testimonialHoangPhoto from "../additinal-asset/Hoang.png";
-import testimonialHuyenPhoto from "../additinal-asset/Huyen.png";
-import testimonialDuyPhoto from "../additinal-asset/Duy.png";
+import testimonialHoangPhoto from "../additinal-asset/Hoang_proxy.png";
+import testimonialHuyenPhoto from "../additinal-asset/Huyen_proxy.png";
+import testimonialDuyPhoto from "../additinal-asset/Duy_proxy.png";
 
 export interface Coach {
   id: string;

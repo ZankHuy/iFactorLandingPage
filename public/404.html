@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ONE SALE COMPANY - iFactor Academy</title>
+    <script>
+      // SPA fallback: redirect all paths back to index.html
+      var path = window.location.pathname;
+      var base = '/iFactorLandingPage/';
+      if (
+        path !== base &&
+        path !== base.slice(0, -1) &&
+        path !== '/' &&
+        !path.startsWith('/src') &&
+        !path.endsWith('.js') &&
+        !path.endsWith('.css') &&
+        !path.endsWith('.ico') &&
+        !path.endsWith('.png') &&
+        !path.endsWith('.jpg') &&
+        !path.endsWith('.jpeg') &&
+        !path.endsWith('.svg') &&
+        !path.endsWith('.woff2') &&
+        !path.endsWith('.woff')
+      ) {
+        window.location.replace(base || '/');
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

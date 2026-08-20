@@ -3,7 +3,7 @@ import { ACADEMY_FEATURES, PROCESS_STEPS } from "./types";
 
 export default function WhatYouLearn() {
   return (
-    <section className="py-24 bg-white font-sans relative overflow-hidden" id="what-you-learn-section">
+    <section className="py-4 sm:py-24 bg-white font-sans relative overflow-hidden" id="what-you-learn-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

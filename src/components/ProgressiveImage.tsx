@@ -11,6 +11,8 @@ interface ProgressiveImageProps {
   prefetchDelay?: number;
   /** If true, proxy image also uses loading=lazy. Default false (proxy always eager). */
   lazy?: boolean;
+  /** Object fit mode. Default "cover". Use "contain" to show full image without cropping. */
+  objectFit?: "cover" | "contain";
 }
 
 /**
@@ -32,11 +34,19 @@ export default function ProgressiveImage({
   referrerPolicy = "no-referrer",
   prefetchDelay = 800,
   lazy = false,
+  objectFit = "cover",
 }: ProgressiveImageProps) {
   const [src, setSrc] = useState(proxySrc);
   const [isFullLoaded, setIsFullLoaded] = useState(false);
   const hasSwapped = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // Reset state when proxySrc changes (carousel navigation)
+  useEffect(() => {
+    hasSwapped.current = false;
+    setSrc(proxySrc);
+    setIsFullLoaded(false);
+  }, [proxySrc]);
 
   useEffect(() => {
     if (!fullSrc || fullSrc === proxySrc) return;
@@ -79,7 +89,8 @@ export default function ProgressiveImage({
         loading={lazy ? "lazy" : "eager"}
         fetchPriority={lazy ? "auto" : "high"}
         decoding="async"
-        className="w-full h-full object-cover"
+        className="w-full h-full"
+        style={{ objectFit }}
         referrerPolicy={referrerPolicy}
       />
     </div>

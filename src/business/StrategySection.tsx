@@ -3,7 +3,7 @@ import { PROBLEMS } from "./types";
 
 export default function StrategySection() {
   return (
-    <section className="py-24 bg-white font-sans relative overflow-hidden" id="strategy-section">
+    <section className="py-4 sm:py-24 bg-white font-sans relative overflow-hidden" id="strategy-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

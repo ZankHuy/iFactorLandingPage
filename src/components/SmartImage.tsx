@@ -9,6 +9,7 @@ interface Props {
   className?: string;
   style?: React.CSSProperties;
   referrerPolicy?: ReferrerPolicy;
+  objectFit?: "cover" | "contain";
 }
 
 /**
@@ -30,7 +31,7 @@ function splitProxyFull(src: string): { proxy: string; full: string } {
  * the element is in/near the viewport. Speeds up first paint while
  * delivering crisp images to users who linger.
  */
-export default function SmartImage({ proxySrc, fullSrc, alt, className, style, referrerPolicy }: Props) {
+export default function SmartImage({ proxySrc, fullSrc, alt, className, style, referrerPolicy, objectFit }: Props) {
   const { proxy, full } = splitProxyFull(proxySrc || fullSrc);
   return (
     <ProgressiveImage
@@ -40,6 +41,7 @@ export default function SmartImage({ proxySrc, fullSrc, alt, className, style, r
       className={className}
       style={style}
       referrerPolicy={referrerPolicy}
+      objectFit={objectFit}
     />
   );
 }

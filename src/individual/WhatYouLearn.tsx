@@ -64,7 +64,7 @@ export default function WhatYouLearn() {
   };
 
   return (
-    <section className="py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="what-you-learn-section">
+    <section className="py-4 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="what-you-learn-section">
       
 
 

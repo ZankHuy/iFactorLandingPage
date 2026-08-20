@@ -434,7 +434,7 @@ export const AGENT_TESTIMONIALS: Testimonial[] = [
     brokerage: "Đại lý BĐS Vinhomes Premium",
     quote: "Từ một sale thô cứng chỉ biết spam tin nhắn rác, sau khi xây dựng concept kênh tư vấn chuyên gia theo định vị của One Sale Company, kênh TikTok của em vượt 50K followers, mang về đều đặn hơn 25 lead chất lượng mỗi tuần mà hoàn toàn không mất chi phí quảng cáo.",
     imageUrl: testimonialHoangPhoto,
-    objectPosition: "50% 5%"
+    objectPosition: "50% 40%"
   },
   {
     id: "t2",
@@ -443,7 +443,7 @@ export const AGENT_TESTIMONIALS: Testimonial[] = [
     brokerage: "Nhà Đất Thổ Cư Hà Nội",
     quote: "Nhờ bài học bóc tách USP dự án và ứng dụng prompt AI của thầy Đức, Phương đã tiết kiệm 80% thời gian lên content. Video ngắn quay bằng điện thoại chia sẻ thực tế quy hoạch quận Hoàng Mai đạt 300K views và giúp tôi chốt thành công 2 căn nhà phố trị giá 15 tỷ trong 1 tháng.",
     imageUrl: testimonialHuyenPhoto,
-    objectPosition: "50% 5%"
+    objectPosition: "50% 40%"
   },
   {
     id: "t3",
@@ -452,7 +452,7 @@ export const AGENT_TESTIMONIALS: Testimonial[] = [
     brokerage: "Khải Hoàn Land",
     quote: "Tôi áp dụng toàn bộ 12 module và bộ quy chuẩn CRM cá nhân để hướng dẫn lại cho team 15 người của mình. Không cần chờ lead từ tổng công ty rót xuống nữa, các em đều tự biết lên kịch bản livestream hằng tuần và chủ động nguồn khách. Doanh số cả đội tăng vọt gấp 3 lần.",
     imageUrl: testimonialDuyPhoto,
-    objectPosition: "50% 5%"
+    objectPosition: "50% 40%"
   }
 ];
 

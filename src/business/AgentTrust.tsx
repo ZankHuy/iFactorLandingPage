@@ -23,7 +23,7 @@ export default function AgentTrust() {
   };
 
   return (
-    <section className="py-24 bg-ifactor-cream font-sans relative overflow-hidden">
+    <section className="py-8 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden">
       
 
 
@@ -46,13 +46,14 @@ export default function AgentTrust() {
                 className="group h-[680px] rounded-[32px] overflow-hidden relative shadow-xl hover:shadow-2xl transition-all duration-300 border border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-950 flex flex-col"
               >
                 {/* Dedicated Top Portrait Photo Container */}
-                <div className="relative h-[380px] w-full overflow-hidden bg-ifactor-cream">
+                <div className="relative h-[380px] w-full overflow-hidden bg-ifactor-cream flex items-end justify-center">
                   <SmartImage 
                     proxySrc={testimonial.imageUrl}
                     fullSrc={testimonial.imageUrl}
                     alt={testimonial.name} 
                     className="absolute inset-0 w-full h-full group-hover:scale-105 transition duration-500"
-                    style={{ objectPosition: testimonial.objectPosition || "50% 5%" }}
+                    style={{ objectPosition: "50% 100%" }}
+                    objectFit="contain"
                     referrerPolicy="no-referrer"
                   />
                   {/* Subtle fade at bottom to blend with content */}

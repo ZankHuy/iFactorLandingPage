@@ -3,7 +3,7 @@ import { BOOTCAMP_DAYS, OFFLINE_OUTPUTS } from "./types";
 
 export default function BootcampSection() {
   return (
-    <section className="py-24 bg-white font-sans relative overflow-hidden" id="bootcamp-section">
+    <section className="py-8 sm:py-24 bg-white font-sans relative overflow-hidden" id="bootcamp-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

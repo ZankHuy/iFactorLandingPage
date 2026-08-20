@@ -32,11 +32,103 @@ export default function BenefitsComparison() {
   return (
     <section className="py-16 bg-white font-sans relative overflow-hidden" id="benefits-comparison">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
+        {/* Course System Table */}
+        <div className="mb-12">
+          <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-3xl p-6 sm:p-10 shadow-lg border border-slate-200">
+            <div className="text-center mb-8 space-y-3">
+              <span className="inline-block text-xs font-black uppercase tracking-[0.3em] text-red-700 bg-red-100 px-4 py-1.5 rounded-full font-sans">
+                Hệ thống bài giảng
+              </span>
+              <h3 className="font-display font-black text-3xl md:text-4xl tracking-wider leading-tight text-slate-950 font-sans">
+                Nội dung đào tạo chi tiết
+              </h3>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[640px]">
+                <thead>
+                  <tr>
+                    <th className="text-left py-3 px-4 font-extrabold text-[11px] uppercase text-slate-600 tracking-wider border-b-2 border-slate-200">
+                      Bài giảng
+                    </th>
+                    <th className="text-center py-3 px-4 border-b-2 border-slate-200 w-24">
+                      <span className="font-black text-sm text-slate-800">Starter</span>
+                    </th>
+                    <th className="text-center py-3 px-4 border-b-2 border-red-600 w-24 bg-red-50/30">
+                      <span className="font-black text-sm text-red-600">System</span>
+                    </th>
+                    <th className="text-center py-3 px-4 border-b-2 border-slate-200 w-24">
+                      <span className="font-black text-sm text-slate-800">Partner</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    "Tư duy One Sale Company",
+                    "Định vị thương hiệu cá nhân",
+                    "AI Project Intelligence – Làm chủ dữ liệu dự án bằng AI",
+                    "AI Content Mastery – Viết kịch bản bán hàng bằng AI",
+                    "Solo Shooting – Tự quay video chuyên nghiệp một mình",
+                    "Video Production – Dựng phim trên điện thoại & máy tính",
+                    "AI Design for Sales – Thiết kế hình ảnh bán hàng bằng AI",
+                    "Omni-Channel – Phân phối nội dung đa nền tảng",
+                    "Livestream Mastery – Bán hàng & thu hút khách hàng trực tiếp",
+                    "Digital Traffic – Google Ads, Facebook Ads, TikTok Ads & Đăng tin",
+                    "Customer Funnel – Xây hệ thống thu hút & chuyển đổi khách hàng",
+                    "Million Dollar Real Estate Sales – Kỹ năng & thực chiến bán hàng BĐS triệu đô",
+                  ].map((course, idx) => {
+                    const isInStarter = idx < 6;
+                    const isInSystem = true;
+                    const isInPartner = true;
+                    return (
+                      <tr key={idx} className="border-b border-slate-200 last:border-0">
+                        <td className="py-3 px-4 text-xs text-slate-700">{course}</td>
+                        <td className="py-3 px-4 text-center">
+                          {isInStarter ? (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500 text-white shadow-sm">
+                              <Check size={14} strokeWidth={3} />
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-200 text-slate-400">
+                              <Minus size={14} />
+                            </span>
+                          )}
+                        </td>
+                        <td className="py-3 px-4 text-center bg-red-50/20">
+                          {isInSystem ? (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500 text-white shadow-sm">
+                              <Check size={14} strokeWidth={3} />
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-200 text-slate-400">
+                              <Minus size={14} />
+                            </span>
+                          )}
+                        </td>
+                        <td className="py-3 px-4 text-center">
+                          {isInPartner ? (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500 text-white shadow-sm">
+                              <Check size={14} strokeWidth={3} />
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-slate-200 text-slate-400">
+                              <Minus size={14} />
+                            </span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         {/* Header */}
         <div className="max-w-2xl mx-auto text-center mb-12">
           <span className="text-xs font-black uppercase text-red-750 tracking-widest font-mono">SO SÁNH GÓI</span>
-          <h2 className="font-display font-black text-2xl md:text-3xl tracking-wider leading-snug text-slate-950 mt-3">
+          <h2 className="font-display font-black text-3xl md:text-4xl tracking-wider leading-tight text-slate-950 mt-3">
             Quyền lợi chi tiết theo gói
           </h2>
         </div>

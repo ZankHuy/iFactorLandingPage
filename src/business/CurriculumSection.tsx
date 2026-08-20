@@ -3,7 +3,7 @@ import { CURRICULUM_MODULES } from "./types";
 
 export default function CurriculumSection() {
   return (
-    <section className="py-24 bg-slate-50 font-sans relative overflow-hidden" id="curriculum-section">
+    <section className="py-8 sm:py-24 bg-slate-50 font-sans relative overflow-hidden" id="curriculum-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

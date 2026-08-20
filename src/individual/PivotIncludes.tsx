@@ -18,7 +18,7 @@ export default function PivotIncludes() {
   };
 
   return (
-    <section className="py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="includes-section">
+    <section className="py-8 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="includes-section">
       
 
 

@@ -11,8 +11,8 @@ import WhatYouLearn from "../individual/WhatYouLearn";
 import Coaches from "../individual/Coaches";
 import PivotIncludes from "../individual/PivotIncludes";
 import BenefitsComparison from "../individual/BenefitsComparison";
+import PricingSection from "../business/PricingSection";
 import AgentTrust from "../individual/AgentTrust";
-import PricingSection from "../individual/PricingSection";
 import FAQ from "../individual/FAQ";
 import Footer from "../individual/Footer";
 import FloatingHotline from "../individual/FloatingHotline";
@@ -31,8 +31,8 @@ export default function IndividualLanding() {
         <PivotIncludes />
         <BenefitsComparison />
         <AgentTrust />
-        <PricingSection />
         <FAQ />
+        <PricingSection />
       </main>
 
       <Footer />

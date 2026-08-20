@@ -39,7 +39,7 @@ export default function PricingSection() {
   return (
     <section 
       id="pricing-section" 
-      className="py-24 bg-ifactor-cream text-slate-900 font-sans relative overflow-hidden"
+      className="py-8 sm:py-24 bg-ifactor-cream text-slate-900 font-sans relative overflow-hidden"
     >
       {/* Background circles */}
       <div className="absolute top-1/4 -right-1/4 w-96 h-96 bg-red-650/5 rounded-full blur-3xl pointer-events-none" />

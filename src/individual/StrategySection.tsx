@@ -65,7 +65,7 @@ export default function StrategySection() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-red-50/20 font-sans" id="strategy-section">
+    <section className="py-8 sm:py-24 bg-gradient-to-b from-white to-red-50/20 font-sans" id="strategy-section">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Core Rounded Panel Card - Elegant Bright Academic Design */}

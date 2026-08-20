@@ -3,7 +3,7 @@ import { PRICING_PLANS } from "./types";
 
 export default function PivotIncludes() {
   return (
-    <section className="py-8 sm:py-24 bg-white font-sans relative overflow-hidden" id="includes-section">
+    <section className="py-4 sm:py-24 bg-white font-sans relative overflow-hidden" id="includes-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

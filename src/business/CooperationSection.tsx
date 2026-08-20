@@ -3,7 +3,7 @@ import { COOPERATION_PHASES, CAMPAIGN_PHASES } from "./types";
 
 export default function CooperationSection() {
   return (
-    <section className="py-8 sm:py-24 bg-white font-sans relative overflow-hidden" id="cooperation-section">
+    <section className="py-4 sm:py-24 bg-white font-sans relative overflow-hidden" id="cooperation-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

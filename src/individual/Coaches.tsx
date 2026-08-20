@@ -17,7 +17,7 @@ export default function Coaches() {
   const coach = COACHES_LIST[currentIndex];
 
   return (
-    <section className="py-8 sm:py-24 bg-ifactor-cream font-sans relative" id="coaches-section">
+    <section className="py-4 sm:py-24 bg-ifactor-cream font-sans relative" id="coaches-section">
       
 
 

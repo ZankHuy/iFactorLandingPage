@@ -23,7 +23,7 @@ export default function AgentTrust() {
   };
 
   return (
-    <section className="py-8 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden">
+    <section className="py-4 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden">
       
 
 

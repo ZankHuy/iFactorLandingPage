@@ -10,7 +10,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="py-8 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="faq-section">
+    <section className="py-4 sm:py-24 bg-ifactor-cream font-sans relative overflow-hidden" id="faq-section">
       
 
 

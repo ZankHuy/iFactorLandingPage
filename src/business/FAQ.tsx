@@ -10,7 +10,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="py-8 sm:py-24 bg-white font-sans relative overflow-hidden" id="faq-section">
+    <section className="py-4 sm:py-24 bg-white font-sans relative overflow-hidden" id="faq-section">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
